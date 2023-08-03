@@ -1,6 +1,6 @@
-import { Feature } from "@/types/feature";
+import { PartnerShip } from "@/types/partnerShip";
 
-const PartnerShipsData: Feature[] = [
+const PartnerShipsData: PartnerShip[] = [
     {
         id: 1,
         icon: (
