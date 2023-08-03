@@ -60,47 +60,64 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              <h4 className="text-black dark:text-white font-medium uppercase">
+              <h4 className="text-black dark:text-white font-medium lowercase">
                 <span className="bg-meta text-white text-metatitle inline-flex rounded-full py-1 px-4.5 mr-4 mb-4 uppercase ">
-                  New
+                  Why Us
                 </span>{" "}
-                SaaS Boilerplate for Next.js
+                Why we deliver the best value
               </h4>
-              <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                A Complete Solution for
+              <h2 className="relative font-bold text-black justify-centre dark:text-white text-3xl xl:text-hero mb-6">
+                About
                 <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1">
-                  SaaS Startup
+                  Logit Transports, a logistics Services provider
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                Logit Transporters team is dedicated to offer the
+                best value for businesses because we value the partnerships
+                we make with out customers.  we have values we stand for and they are
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
                 <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                   <p className="text-black dark:text-white font-semibold text-metatitle2">
-                    01
+                    1
                   </p>
                 </div>
                 <div className="w-3/4">
                   <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                    React 18, Next.js 13 and TypeScript
+                    Digitize Supply Chains
                   </h5>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
+                  <p>Turning analog supply chain processes into digital ones by establishing dedicated master data that aggregates information from across your entire supply chain,
+                    as well as information from some external sources, such as weather forecasts, traffic data, and social media.</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
                 <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                   <p className="text-black dark:text-white font-semibold text-metatitle2">
-                    02
+                    2
                   </p>
                 </div>
                 <div className="w-3/4">
                   <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
-                    Fully Customizable
+                  Improve Economic Efficiency
                   </h5>
-                  <p>consectetur adipiscing elit fermentum ultricies.</p>
+                  <p>Economic efficiency in logistics supply chains is important because excellence in this area can save a company money while keeping customers satisfied. An efficient supply chain means shorter order processing times,
+                  better inventory management and faster delivery, which leads to lower costs and higher customer satisfaction.</p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
+                  <p className="text-black dark:text-white font-semibold text-metatitle2">
+                    3
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h5 className="text-black dark:text-white text-metatitle2 mb-0.5">
+                  Lead the Digitization Space
+                  </h5>
+                  <p>Established wide-ranging global supply chains that have taken advantage of steadily improving scale economies in global logistics. Efficient and reliable ocean and air cargo have linked low-cost manufacturing hubs across
+                  Asia with major markets in the United States and Europe. We looking forward to linking these markets with Africa and more specifically Sub-Saharan Africa.</p>
                 </div>
               </div>
             </motion.div>
@@ -132,24 +149,26 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="text-black dark:text-white font-medium uppercase">
-                Launch Your SaaS Fast
+                Partner With Us
               </h4>
               <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                Packed with All Essential
+                Let us extend your reach to other markets with you existing supply chain
                 <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg2 dark:before:bg-titlebgdark before:-z-1 ml-2.5">
-                  Integrations
+                  processes
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                We are a team of dedicated professionals, ready to do what ever 
+                it takes to make your business grow. We provide different ways to partner
+                with us and we are open to new ideas. of how to make supply chains and logistics services
+                resilient
               </p>
               <div>
                 <a
                   href="#"
                   className="flex items-center gap-2.5 text-black dark:text-white mt-7.5 hover:text-primary dark:hover:text-primary"
                 >
-                  <span className="hover:pr-2 duration-500">Know More</span>
+                  <span className="hover:pr-2 duration-500">Know more</span>
                   <svg
                     width="14"
                     height="14"

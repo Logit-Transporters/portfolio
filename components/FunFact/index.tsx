@@ -56,12 +56,10 @@ const FunFact = () => {
             className="animate_top mx-auto text-center md:w-4/5 lg:w-2/3 xl:w-1/2 mb-12.5 lg:mb-17.5 px-4 md:px-0"
           >
             <h2 className="font-bold text-black dark:text-white text-3xl xl:text-sectiontitle3 mb-4">
-              Trusted by Global Companies.
+              Trusted Partner
             </h2>
             <p className="lg:w-11/12 mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              We are very proud of the service we provide and valued realised
             </p>
           </motion.div>
 
@@ -87,7 +85,7 @@ const FunFact = () => {
               <h3 className="font-bold text-black dark:text-white text-3xl xl:text-sectiontitle3 mb-2.5">
                 500K
               </h3>
-              <p className="text-lg lg:text-para2">World Wide Clients</p>
+              <p className="text-lg lg:text-para2">Clients</p>
             </motion.div>
             <motion.div
               variants={{
@@ -108,9 +106,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="font-bold text-black dark:text-white text-3xl xl:text-sectiontitle3 mb-2.5">
-                1M+
+                20K+
               </h3>
-              <p className="text-lg lg:text-para2">Downloads</p>
+              <p className="text-lg lg:text-para2">Business Impacted</p>
             </motion.div>
             <motion.div
               variants={{
@@ -131,9 +129,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="font-bold text-black dark:text-white text-3xl xl:text-sectiontitle3 mb-2.5">
-                865
+                100k 
               </h3>
-              <p className="text-lg lg:text-para2">Winning Award</p>
+              <p className="text-lg lg:text-para2">MAUs</p>
             </motion.div>
           </div>
         </div>

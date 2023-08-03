@@ -32,7 +32,10 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">
           {title}
         </h3>
-        <p>{description}</p>
+        <div className="flex justify-content w-10/12 xl:w-full">
+          <p>{description}</p>
+        </div>
+
       </motion.div>
     </>
   );

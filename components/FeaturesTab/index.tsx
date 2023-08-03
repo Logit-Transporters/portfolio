@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import featuresTabData from "./featuresTabData";
 import FeaturesTabItem from "./FeaturesTabItem";
+import SectionHeader from "../Common/SectionHeader";
 
 import { motion } from "framer-motion";
 
@@ -12,6 +13,13 @@ const FeaturesTab = () => {
   return (
     <>
       {/* <!-- ===== Features Tab Start ===== --> */}
+      <SectionHeader
+        headerInfo={{
+          title: "Spotlight",
+          subtitle: "Services Spotlight",
+          description: `Our reach set of services ready for customization to you needs to further your digital transformation in logistics`,
+        }}
+      />
       <section className="pt-18.5 pb-20 lg:pb-22.5 relative">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 relative">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
@@ -50,11 +58,10 @@ const FeaturesTab = () => {
           >
             <div
               onClick={() => setCurrentTab("tabOne")}
-              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${
-                currentTab === "tabOne"
-                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
-                  : ""
-              }`}
+              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${currentTab === "tabOne"
+                ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
+                : ""
+                }`}
             >
               <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
@@ -69,11 +76,10 @@ const FeaturesTab = () => {
             </div>
             <div
               onClick={() => setCurrentTab("tabTwo")}
-              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${
-                currentTab === "tabTwo"
-                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
-                  : ""
-              }`}
+              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${currentTab === "tabTwo"
+                ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
+                : ""
+                }`}
             >
               <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
@@ -88,11 +94,10 @@ const FeaturesTab = () => {
             </div>
             <div
               onClick={() => setCurrentTab("tabThree")}
-              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${
-                currentTab === "tabThree"
-                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
-                  : ""
-              }`}
+              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${currentTab === "tabThree"
+                ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
+                : ""
+                }`}
             >
               <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
