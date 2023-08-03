@@ -17,16 +17,15 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
-              <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
-                🔥 Solid - A Complete SaaS Web Template
+              <h4 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16 ">
+                Logit Transporters
               </h4>
               <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16 ">
-              SaaS Landing Page and Web Template for 
-                <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">Next.js
+                <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">Your Reliable Partner
                 </span>
               </h1>
               <p>
-Solid Pro - Packed with all the key integrations you need for swift SaaS startup launch, including - Auth, Database, Sanity Blog, Essential Components, Pages and More. Built-winth - Next.js 13, React 18 and TypeScript.
+                We Provide services that enable your business manage the logistics part of your business digitally and efficiently to able you diversify among different supply chains in your business. We do logistics the easy way
               </p>
 
               <div className="mt-10">
@@ -49,7 +48,7 @@ Solid Pro - Packed with all the key integrations you need for swift SaaS startup
                 </form>
 
                 <p className="text-black dark:text-white mt-5">
-                  Try for free no credit card required.
+                  Try our package delivery service for free, then choose a plan
                 </p>
               </div>
             </div>
