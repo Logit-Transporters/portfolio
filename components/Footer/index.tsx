@@ -33,21 +33,23 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/logo-5.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/logo-6.svg"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
                 <p className="mt-5 mb-10">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Logit Transporters.
+                  5th street, 2nd avenue,
+                  Kampala, Uganda
                 </p>
 
                 <p className="uppercase tracking-[5px] text-sectiontitle mb-1.5">
@@ -57,7 +59,7 @@ const Footer = () => {
                   href="#"
                   className="text-black dark:text-white font-medium text-itemtitle"
                 >
-                  hello@solid.com
+                  support@logit.com
                 </a>
               </motion.div>
 
@@ -87,7 +89,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Home
@@ -95,10 +97,10 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#features"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Product
+                        Services
                       </a>
                     </li>
                     <li>
@@ -111,7 +113,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#pricing"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Pricing
@@ -268,12 +270,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="/" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="/" className="hover:text-primary">
                     Support
                   </a>
                 </li>
@@ -298,7 +300,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>&copy; 2025 Solid. All rights reserved</p>
+              <p>&copy; 2023 Logit Transporters. All rights reserved</p>
             </motion.div>
 
             <motion.div

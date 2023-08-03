@@ -13,7 +13,7 @@ const Integration = () => {
           <SectionHeader
             headerInfo={{
               title: `Integrations`,
-              subtitle: `Remotely access our API to integrate with your existing systems.`,
+              subtitle: `Integrate your existing systems.`,
               description: `We have a wide range of integrations available to help you get the most out of your data.`,
             }}
           />
@@ -111,14 +111,14 @@ const Integration = () => {
                   height={50}
                   src="./images/brand/brand-15.svg"
                   alt="Brand"
-                  className="w-full dark:hidden"
+                  className="dark:hidden"
                 />
                 <Image
                   width={50}
                   height={50}
                   src="./images/brand/brand-15.svg"
                   alt="Brand"
-                  className="w-full hidden dark:block"
+                  className="hidden dark:block"
                 />
               </div>
             </motion.div>
@@ -168,6 +168,14 @@ const Integration = () => {
                   height={50}
                   src="./images/brand/brand-13.svg"
                   alt="Brand"
+                  className="dark:hidden"
+                />
+                <Image
+                  width={50}
+                  height={50}
+                  src="./images/brand/brand-19.svg"
+                  alt="Brand"
+                  className="hidden dark:block"
                 />
               </div>
             </motion.div>
@@ -236,6 +244,14 @@ const Integration = () => {
                   height={50}
                   src="./images/brand/brand-14.svg"
                   alt="Brand"
+                  className="dark:hidden"
+                />
+                <Image
+                  width={50}
+                  height={50}
+                  src="./images/brand/brand-14.svg"
+                  alt="Brand"
+                  className="hidden dark:block"
                 />
               </div>
             </motion.div>
@@ -285,6 +301,14 @@ const Integration = () => {
                   height={50}
                   src="./images/brand/brand-16.svg"
                   alt="Brand"
+                  className="dark:hidden"
+                />
+                <Image
+                  width={50}
+                  height={50}
+                  src="./images/brand/brand-16.svg"
+                  alt="Brand"
+                  className="hidden dark:block"
                 />
               </div>
             </motion.div>
@@ -334,6 +358,14 @@ const Integration = () => {
                   height={50}
                   src="./images/brand/brand-17.svg"
                   alt="Brand"
+                  className="dark:hidden"
+                />
+                <Image
+                  width={50}
+                  height={50}
+                  src="./images/brand/brand-17.svg"
+                  alt="Brand"
+                  className="hidden dark:block"
                 />
               </div>
             </motion.div>

@@ -32,9 +32,8 @@ const CTA = () => {
                 Join With Us Today & Increase Your Productivity
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                convallis tortor eros. Donec vitae tortor lacus. Phasellus
-                aliquam ante in maximus.
+                We provide services that are fully customizable to you business models,
+                we store, package, deliver and track your products to your customers.
               </p>
             </motion.div>
             <motion.div
@@ -64,10 +63,10 @@ const CTA = () => {
                   className="hidden xl:block"
                 />
                 <a
-                  href="signup.html"
+                  href="/auth/signup"
                   className="inline-flex items-center gap-2.5 font-medium text-white dark:text-black bg-black dark:bg-white rounded-full py-3 px-6 hover:opacity-90"
                 >
-                  Sign up free
+                  Sign up Now
                   <Image
                     width={20}
                     height={20}
