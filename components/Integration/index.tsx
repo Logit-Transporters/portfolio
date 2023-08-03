@@ -12,9 +12,9 @@ const Integration = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: `INTEGRATIONS`,
-              subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              title: `Integrations`,
+              subtitle: `Remotely access our API to integrate with your existing systems.`,
+              description: `We have a wide range of integrations available to help you get the most out of your data.`,
             }}
           />
 
@@ -111,6 +111,14 @@ const Integration = () => {
                   height={50}
                   src="./images/brand/brand-15.svg"
                   alt="Brand"
+                  className="w-full dark:hidden"
+                />
+                <Image
+                  width={50}
+                  height={50}
+                  src="./images/brand/brand-15.svg"
+                  alt="Brand"
+                  className="w-full hidden dark:block"
                 />
               </div>
             </motion.div>
@@ -324,7 +332,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/brand-12.svg"
+                  src="./images/brand/brand-17.svg"
                   alt="Brand"
                 />
               </div>
