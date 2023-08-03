@@ -1,0 +1,9 @@
+[[plugins]]
+    package = "@sentry/netlify-build-plugin"
+
+    [plugins.inputs]
+        sentryOrg = "helix-dynamics"
+        sentryProject = "logit-transporters"
+        sentryRepository = "Logit-Transporters/logit-potifilo"
+        skipSetCommits = false
+        deployPreviews = false
