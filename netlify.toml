@@ -3,7 +3,7 @@
 
     [plugins.inputs]
         sentryOrg = "helix-dynamics"
-        sentryProject = "logit-transporters"
+        sentryProject = "logit-portfolio"
         sentryRepository = "Logit-Transporters/logit-potifilo"
         skipSetCommits = false
         deployPreviews = false
