@@ -5,9 +5,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("")
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
   };
 
