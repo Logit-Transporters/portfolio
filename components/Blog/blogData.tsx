@@ -1,5 +1,9 @@
 import { Blog } from "@/types/blog";
 
+// sample data
+const Data: Blog[] = [
+]
+
 const BlogData: Blog[] = [
   { 
     _id: 1,
@@ -45,4 +49,4 @@ const BlogData: Blog[] = [
   },
 ];
 
-export default BlogData;
+export default Data;
