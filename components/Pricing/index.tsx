@@ -41,7 +41,7 @@ const Pricing = () => {
                 </span>
               </h3>
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-                Package Delivery
+                Starter
               </h4>
               <p>Optimal for individual</p>
 
