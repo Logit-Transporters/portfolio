@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@sentry/nextjs": "^7.60.1",
+    "@netlify/sentry": "^0.0.8",
+    "@netlify/integrations": "^0.6.0",
     "@types/node": "20.2.5",
     "@types/react": "^18.2.12",
     "@types/react-dom": "18.2.4",

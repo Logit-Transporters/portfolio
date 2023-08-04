@@ -3,7 +3,7 @@
 
     [plugins.inputs]
         sentryOrg = "helix-dynamics"
-        sentryProject = "logit-portfolio"
+        sentryProject = "portfolio-netlify"
         sentryRepository = "Logit-Transporters/logit-potifilo"
         skipSetCommits = false
         deployPreviews = false
