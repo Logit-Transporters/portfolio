@@ -2,7 +2,7 @@
 import React from "react";
 import SectionHeader from "../Common/SectionHeader";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -10,6 +10,9 @@ import "swiper/css/navigation";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import TestimonialItem from './testimonialItem';
+import Data from "./testimonialData";
+
 
 const Testimonial = () => {
   return (
@@ -22,7 +25,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `TESTIMONIALS`,
                 subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                description: `See what our clients have to say about our services`
               }}
             />
           </div>
@@ -72,83 +75,11 @@ const Testimonial = () => {
                 },
               }}
             >
-              <SwiperSlide>
-                <div className="bg-white rounded-lg shadow-solid-9 dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
-                  <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
-                    <div>
-                      <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
-                        Devid Smith
-                      </h4>
-                      <p>Founter @democompany</p>
-                    </div>
-                    <Image
-                      width={60}
-                      height={50}
-                      className=""
-                      src="./images/user/user-01.svg"
-                      alt="User"
-                    />
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris hendrerit, ligula sit amet cursus tincidunt, lorem
-                    sem elementum nisi, convallis fringilla ante nibh non urna.
-                  </p>
-                </div>
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <div className="bg-white rounded-lg shadow-solid-9 dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
-                  <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
-                    <div>
-                      <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
-                        Jhon Abraham
-                      </h4>
-                      <p>Founter @democompany</p>
-                    </div>
-                    <Image
-                      width={60}
-                      height={50}
-                      className=""
-                      src="./images/user/user-02.svg"
-                      alt="User"
-                    />
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris hendrerit, ligula sit amet cursus tincidunt, lorem
-                    sem elementum nisi, convallis fringilla ante nibh non urna.
-                  </p>
-                </div>
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <div className="bg-white rounded-lg shadow-solid-9 dark:shadow-none dark:bg-blacksection dark:border dark:border-strokedark p-9 pt-7.5">
-                  <div className="flex justify-between border-b border-stroke dark:border-strokedark pb-6 mb-7.5">
-                    <div>
-                      <h4 className="text-black dark:text-white text-metatitle3 mb-1.5">
-                        Devid Smith
-                      </h4>
-                      <p>Founter @democompany</p>
-                    </div>
-                    <Image
-                      width={60}
-                      height={50}
-                      className=""
-                      src="./images/user/user-01.svg"
-                      alt="User"
-                    />
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris hendrerit, ligula sit amet cursus tincidunt, lorem
-                    sem elementum nisi, convallis fringilla ante nibh non urna.
-                  </p>
-                </div>
-              </SwiperSlide>
+              {
+                Data.map((testimonial) => (
+                  <TestimonialItem testimonial={testimonial}/>
+                ))
+              }
             </Swiper>
           </div>
         </motion.div>

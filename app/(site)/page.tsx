@@ -32,6 +32,7 @@ export default function Home() {
       <Integration />
       <CTA />
       <FAQ />
+        <Testimonial />
       <Pricing />
       <Contact />
       <Blog />
