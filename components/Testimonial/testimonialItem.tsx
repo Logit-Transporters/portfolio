@@ -6,11 +6,11 @@
 
 import React from "react";
 import Image from "next/image";
-import {Testimonial} from '@/types/testimonial';
+import { Testimonial } from '@/types/testimonial';
 import { SwiperSlide } from "swiper/react";
 
-export default function TestimonialItem({testimonial}: {testimonial:Testimonial}) {
-    const {name , position, message} = testimonial;
+export default function TestimonialItem({ testimonial }: { testimonial: Testimonial }) {
+    const { name, position, message } = testimonial;
     return (
         <>
             <SwiperSlide>

@@ -77,7 +77,7 @@ const Testimonial = () => {
             >
               {
                 Data.map((testimonial) => (
-                  <TestimonialItem testimonial={testimonial}/>
+                  <TestimonialItem testimonial={testimonial} />
                 ))
               }
             </Swiper>

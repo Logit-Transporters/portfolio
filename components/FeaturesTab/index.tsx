@@ -65,12 +65,12 @@ const FeaturesTab = () => {
             >
               <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
-                  01
+                  1
                 </p>
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Clean User Interface
+                  Package Delivery
                 </h5>
               </div>
             </div>
@@ -83,12 +83,12 @@ const FeaturesTab = () => {
             >
               <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
-                  02
+                  2
                 </p>
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Essential Business Pages
+                  Fulfillment
                 </h5>
               </div>
             </div>
@@ -101,12 +101,12 @@ const FeaturesTab = () => {
             >
               <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                 <p className="text-black dark:text-white font-medium text-metatitle3">
-                  03
+                  3
                 </p>
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Fully Functional Integrations
+                  Cargo Clearing
                 </h5>
               </div>
             </div>
