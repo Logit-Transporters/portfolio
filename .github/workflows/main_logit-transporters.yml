@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - logit-transporters
+name: Deploy Portfolio to Azure Web App
 
 on:
   push:
@@ -54,3 +54,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_072F3AB7A88A4841A056B88FC080B84A }}
           package: .
+          start-up-command: 'npm run start'
