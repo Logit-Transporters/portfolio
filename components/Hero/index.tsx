@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   const [email, setEmail] = useState("")
 
-  const handleSubmit = (e:React.ChangeEvent<any>) => {
+  const handleSubmit = (e:React.FormEvent) => {
     e.preventDefault();
   };
 
