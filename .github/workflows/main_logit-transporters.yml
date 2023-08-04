@@ -6,7 +6,7 @@ name: Deploy Portfolio to Azure Web App
 on:
   push:
     branches:
-      - main
+      - 
   workflow_dispatch:
 
 jobs:
@@ -27,11 +27,17 @@ jobs:
           npm run build --if-present
           npm run test --if-present
 
+      - name :  archive the build output
+        uses: actions/archive@v2
+        with:
+          name: node-app-archive
+          path: .
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: node-app
-          path: .
+          name: node-app-
+          path: ./node-app-archive
 
   deploy:
     runs-on: ubuntu-latest
@@ -54,4 +60,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_072F3AB7A88A4841A056B88FC080B84A }}
           package: .
-          start-up-command: 'npm run start'
+          startup-command: 'npm run start'
