@@ -13,9 +13,9 @@ const Pricing = () => {
           <div className="animate_top text-center mx-auto">
             <SectionHeader
               headerInfo={{
-                title: `PRICING PLANS`,
-                subtitle: `Simple Pricing`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                title: `PRICING`,
+                subtitle: `Plans`,
+                description: `Pricing plans that fit your needs.`,
               }}
             />
           </div>
@@ -35,29 +35,65 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top md:w-[45%] lg:w-1/3 group relative bg-white dark:bg-blacksection rounded-lg shadow-solid-10 dark:shadow-none border border-stroke dark:border-strokedark p-7.5 xl:p-12.5">
               <h3 className="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5">
-                $10{" "}
+                $0{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
+                    /user/month
                 </span>
               </h3>
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-                Small Pack
+                Package Delivery
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Optimal for individual</p>
 
               <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
                 <ul>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    300 GB Storage
+                    Direct delivery
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Unlimited Photos and Videos
+                    End to end delivery
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Business management operations
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-                    Exclusive Support
+                    Basic Tracking for Transit
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-                    Custom Branding Strategy
+                    Tax management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Warehousing Management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Team management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Cargo clearance
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Suppliers market place
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Third party Logistics Plugins
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Ride renting service
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Realtime GPS tracking for transit
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Schedule of deliveries
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Supplier management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Fleet management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Last mile delivery agents
                   </li>
                 </ul>
               </div>
@@ -66,7 +102,7 @@ const Pricing = () => {
                 aria-label="purchase this plan"
                 className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
               >
-                <span className="hover:pr-2 duration-500"> Get the Plan</span>
+                <span className="hover:pr-2 duration-500">Start Now</span>
                 <svg
                   width="14"
                   height="14"
@@ -84,33 +120,69 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top md:w-[45%] lg:w-1/3 group relative bg-white dark:bg-blacksection rounded-lg shadow-solid-10 dark:shadow-none border border-stroke dark:border-strokedark p-7.5 xl:p-12.5">
               <div className="absolute top-7.5 -right-3.5 -rotate-90 rounded-tl-full rounded-bl-full bg-primary font-medium text-white text-metatitle uppercase py-1.5 px-4.5">
-                popular
+                Popular
               </div>
 
               <h3 className="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5">
                 $59{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
+                  /user/month
                 </span>
               </h3>
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-                Medium Pack
+                 Business
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Optimal for medium size business </p>
 
               <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
                 <ul>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    300 GB Storage
+                    Direct delivery
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Unlimited Photos and Videos
+                    End to end delivery
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Exclusive Support
+                    Business management operations
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Basic Tracking for Transit
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Tax management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Warehousing Management
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-                    Custom Branding Strategy
+                    Team management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Cargo clearance
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Suppliers market place
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Third party Logistics Plugins
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Ride renting service
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Realtime GPS tracking for transit
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Schedule of deliveries
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Supplier management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Fleet management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    Last mile delivery agents
                   </li>
                 </ul>
               </div>
@@ -137,29 +209,62 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top md:w-[45%] lg:w-1/3 group relative bg-white dark:bg-blacksection rounded-lg shadow-solid-10 dark:shadow-none border border-stroke dark:border-strokedark p-7.5 xl:p-12.5">
               <h3 className="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5">
-                $189{" "}
-                <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
-                </span>
+                Contact Us
               </h3>
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-                Large Pack
+                Enterprise
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>For Large business and Partners</p>
 
               <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
                 <ul>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    300 GB Storage
+                    Direct delivery
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Unlimited Photos and Videos
+                    End to end delivery
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Exclusive Support
+                    Business management operations
                   </li>
                   <li className="text-black dark:text-manatee mb-4 last:mb-0">
-                    Custom Branding Strategy
+                    Basic Tracking for Transit
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Tax management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Warehousing Management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Team management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Cargo clearance
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Suppliers market place
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Third party Logistics Plugins
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Ride renting service
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Realtime GPS tracking for transit
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Schedule of deliveries
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Supplier management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Fleet management
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    Last mile delivery agents
                   </li>
                 </ul>
               </div>
@@ -168,7 +273,7 @@ const Pricing = () => {
                 aria-label="purchase this plan"
                 className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
               >
-                <span className="hover:pr-2 duration-500"> Get the Plan</span>
+                <span className="hover:pr-2 duration-500">Contact Sales</span>
                 <svg
                   width="14"
                   height="14"
