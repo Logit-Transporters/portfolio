@@ -6,7 +6,7 @@ name: Deploy Portfolio to Azure Web App
 on:
   push:
     branches:
-      - 
+      - main
   workflow_dispatch:
 
 jobs:
