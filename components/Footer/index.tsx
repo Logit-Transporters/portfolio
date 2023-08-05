@@ -47,9 +47,9 @@ const Footer = () => {
                 </a>
 
                 <p className="mt-5 mb-10">
-                Logit Transporters.
-                  5th street, 2nd avenue,
-                  Kampala, Uganda
+                5th Street Namanve, 
+                Kampala Industrial Park
+                Kampala, Uganda
                 </p>
 
                 <p className="uppercase tracking-[5px] text-sectiontitle mb-1.5">

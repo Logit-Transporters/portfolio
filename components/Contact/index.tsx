@@ -161,7 +161,7 @@ const Contact = () => {
 
               <div className="mb-7 5">
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
-                  Our Loaction
+                  Our Location
                 </h4>
                 <p>5th Street Namanve, Kampala industrial Park</p>
               </div>
