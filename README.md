@@ -4,7 +4,7 @@ Portfolio is the company website for logit transporters based on Next.js templat
 
 ## 📄 License
 
-Inherits from the initial license from startup Next.js template
+Inherits from the initial license from solid Next.js template
 
 ### 🔌 Docs
 
@@ -13,6 +13,6 @@ The documentation is based on initial from Next.js link is just below
 
 ### ⚡ Deploy Now
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLogit-Transporters%2Fportfolio)
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Logit-Transporters/portfolio)
