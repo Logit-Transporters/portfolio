@@ -6,6 +6,14 @@
 import React from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SidebarLink from "@/components/BusinessDocs/slasBarLink";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "Logit Transporters | Service Level Agreements",
+    description: "This is the service level agreements provided to our customers",
+    // other metadata
+
+}
 
 export default function TermsOfServicePage() {
     return (

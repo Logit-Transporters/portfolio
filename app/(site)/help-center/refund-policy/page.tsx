@@ -7,6 +7,14 @@
 import React from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SidebarLink from "@/components/BusinessDocs/refundPolicyBarLink";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "Logit Transporters | Refund Policy",
+    description: "This is the refund policy page this is the" + " refund policy of our company and we are committed to respecting what it details according to the law",
+    // other metadata
+
+}
 
 export default function RefundPolicyPage() {
     return (

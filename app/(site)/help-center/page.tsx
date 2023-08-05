@@ -7,6 +7,15 @@ import React from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SidebarLink from "@/components/Docs/SidebarLink";
 import FAQ from "@/components/FAQ";
+import {Metadata} from "next";
+
+
+export const metadata: Metadata = {
+    title: "Logit Transporters | Help Center",
+    description: "This is the help center is you self help center" + "round our services and products",
+    // other metadata
+
+}
 
 
 export default function HelpCenterPage() {

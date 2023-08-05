@@ -1,4 +1,12 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "Logit Transporters | Docs",
+    description: "This is the documentation page of Logit Transporters.",
+    // other metadata
+
+}
 
 export default function DocsPage() {
   return (

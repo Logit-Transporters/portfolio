@@ -6,6 +6,13 @@
 
 import React from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "Logit Transporters | Our Team",
+    description: "This is the our team page of Logit Transporters.",
+    // other metadata
+}
 
 export default function OurTeamPage() {
     return (

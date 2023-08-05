@@ -1,6 +1,14 @@
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
 import RelatedPost from "@/components/Blog/RelatedPost";
+import {Metadata} from "next";
+
+export  const metadata: Metadata = {
+    title: "Logit Transporters | Blog Details",
+    description: "This is the blog details page of Logit Transporters.",
+    // other metadata
+
+}
 
 const SingleBlogPage = async () => {
   return (

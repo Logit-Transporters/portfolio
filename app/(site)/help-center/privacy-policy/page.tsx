@@ -7,6 +7,14 @@
 import React from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SidebarLink from "@/components/BusinessDocs/privacyPolicyBarLink";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "Logit Transporters | Privacy Policy",
+    description: "This is the privacy policy page this is the privacy policy of our company and we are committed to protecting your privacy",
+    // other metadata
+
+}
 
 export default function PrivacyPolicyPage() {
     return (
