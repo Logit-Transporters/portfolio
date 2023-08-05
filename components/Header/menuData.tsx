@@ -9,50 +9,32 @@ const menuData: Menu[] = [
   },
   {
     id: 2.1,
-    title: "Help Center",
+    title: "Resource Center",
     newTab: false,
-    path: "/blog"
-  },
-  {
-    id: 2.3,
-    title: "Docs",
-    newTab: false,
-    path: "/docs"
+    path: "/help-center"
   },
   {
     id: 3,
-    title: "Company",
+    title: "Portals",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "Package Delivery Portal",
         newTab: false,
         path: "/blog",
       },
       {
         id: 34,
-        title: "Sign In",
+        title: "Fulfillment Portal",
         newTab: false,
         path: "/auth/signin",
       },
       {
         id: 35,
-        title: "Sign Up",
+        title: "Tracking Portal",
         newTab: false,
         path: "/auth/signup",
-      },
-      {
-        id: 35,
-        title: "Docs",
-        newTab: false,
-        path: "/docs",
-      },
-      {
-        id: 36,
-        title: "404",
-        newTab: false,
-        path: "/error",
       },
     ],
   },
@@ -61,7 +43,7 @@ const menuData: Menu[] = [
     id: 4,
     title: "Support",
     newTab: false,
-    path: "/privacy-policy"
+    path: "/contact"
   },
 ];
 

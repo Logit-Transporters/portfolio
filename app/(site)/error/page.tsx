@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const ErroPage = () => {
+const ErrorPage = () => {
   return (
     <section className="pt-45 lg:pt-50 xl:pt-55 pb-25 lg:pb-32.5 xl:pb-37.5 overflow-hidden">
       <div className="animate_top mx-auto max-w-[518px] text-center">
@@ -53,4 +53,4 @@ const ErroPage = () => {
   );
 };
 
-export default ErroPage;
+export default ErrorPage;

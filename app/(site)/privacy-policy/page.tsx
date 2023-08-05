@@ -7,7 +7,6 @@
 import React from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SidebarLink from "@/components/Docs/SidebarLink";
-import { PrivacyPolicy } from '../../../types/privacyPolicy';
 
 export default function PrivacyPolicyPage() {
     return (
