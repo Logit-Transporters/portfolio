@@ -13,7 +13,7 @@ const SidebarLink = () => {
           FAQs
         </Link>
         <Link
-          href={`/help-center`}
+          href={`/help-center/slas`}
           className={`text-base py-2 px-3 rounded-sm flex w-full text-black dark:text-white dark:bg-blackho`}
         >
           SLAs

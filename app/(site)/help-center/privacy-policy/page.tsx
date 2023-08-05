@@ -6,7 +6,7 @@
 
 import React from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import SidebarLink from "@/components/Docs/SidebarLink";
+import SidebarLink from "@/components/BusinessDocs/privacyPolicyBarLink";
 
 export default function PrivacyPolicyPage() {
     return (
@@ -32,16 +32,43 @@ export default function PrivacyPolicyPage() {
                                     This document serves as a simple template to showcase 
                                     a sample
                                 </p>
-                                <p className="text-base text-body-color dark:text-body-color-dark">
-                                    Please visit:{" "}
-                                    <b>
-                                        <a href="https://nextjstemplates.com/docs">
-                                            nextjstemplates.com/docs
-                                        </a>
-                                    </b>{" "}
-                                    to check out the real docs, setup guide and even video
-                                    instructions
-                                </p>
+                                <form action={""}
+                                method={`{POST`}>
+                                    <div className="flex flex-wrap xl:justify-between ">
+                                        <div className="flex mb-4 md:mb-0">
+                                            <input
+                                                id="default-checkbox"
+                                                type="checkbox"
+                                                value=""
+                                                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 mt-2"
+                                            />
+                                            <label
+                                                htmlFor="default-checkbox"
+                                                className="max-w-[425px] flex cursor-pointer select-none pl-5 text-sm"
+                                            >
+                                                By clicking Checkbox, you agree to abide by our Privacy Policy and Terms of Use.
+                                                And consent cookie usage in browser.
+                                            </label>
+                                        </div>
+
+                                        <button aria-label="send message" className="inline-flex items-center gap-2.5 bg-black hover:bg-blackho ease-in-out duration-300 dark:bg-btndark font-medium text-white rounded-full px-6 py-3">
+                                            Accept
+                                            <svg
+                                                className="fill-white"
+                                                width="14"
+                                                height="14"
+                                                viewBox="0 0 14 14"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z"
+                                                    fill=""
+                                                />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>

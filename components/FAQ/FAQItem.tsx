@@ -5,12 +5,12 @@ type FaqData = {
   activeFaq: number;
   id: number;
   handleFaqToggle: (id: number) => void;
-  quest: string;
-  ans: string;
+  question: string;
+  answer: string;
 };
 
 const FAQItem = ({ faqData }: { faqData: FaqData }) => {
-  const { activeFaq, id, handleFaqToggle, quest, ans } = faqData;
+  const { activeFaq, id, handleFaqToggle, question, answer } = faqData;
 
   return (
     <>
@@ -21,7 +21,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
           }}
           className="cursor-pointer flex justify-between items-center font-medium text-metatitle3 text-black dark:text-white py-5 lg:py-7.5 px-6 lg:px-9"
         >
-          {quest}
+          {question}
           <Image
             width={28}
             height={16}
@@ -60,7 +60,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
             activeFaq === id ? "block" : "hidden"
           }`}
         >
-          {ans}
+          {answer}
         </p>
       </div>
     </>

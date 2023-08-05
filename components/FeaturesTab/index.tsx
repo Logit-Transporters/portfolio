@@ -20,7 +20,7 @@ const FeaturesTab = () => {
           description: `Our reach set of services ready for customization to you needs to further your digital transformation in logistics`,
         }}
       />
-      <section className="pt-18.5 pb-20 lg:pb-22.5 relative">
+      <section id={'spotlight'} className="pt-18.5 pb-20 lg:pb-22.5 relative">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 relative">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <Image

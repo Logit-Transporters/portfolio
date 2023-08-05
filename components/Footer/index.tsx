@@ -105,7 +105,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/careers"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Careers
@@ -141,29 +141,29 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
-                    Support
+                    Company
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/#spotlight"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Company
+                        Service Spotlight
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#about"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Press media
+                        About Us
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/blog"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Our Blog
@@ -171,10 +171,84 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/support"
                         className="inline-block hover:text-primary mb-3"
                       >
                         Contact Us
+                      </a>
+                    </li>
+                  </ul>
+                </motion.div>
+
+                <motion.div
+                    variants={{
+                      hidden: {
+                        opacity: 0,
+                        y: -20,
+                      },
+
+                      visible: {
+                        opacity: 1,
+                        y: 0,
+                      },
+                    }}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 1, delay: 0.1 }}
+                    viewport={{ once: true }}
+                    className="animate_top"
+                >
+                  <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
+                    Services
+                  </h4>
+
+                  <ul>
+                    <li>
+                      <a
+                          href="/#features"
+                          className="inline-block hover:text-primary mb-3"
+                      >
+                        Package Delivery
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                          href="/#features"
+                          className="inline-block hover:text-primary mb-3"
+                      >
+                        Last Mile Delivery
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                          href="/#features"
+                          className="inline-block hover:text-primary mb-3"
+                      >
+                        Fulfillment
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                          href="/#features"
+                          className="inline-block hover:text-primary mb-3"
+                      >
+                       Air and Water Freight
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                          href="/#features"
+                          className="inline-block hover:text-primary mb-3"
+                      >
+                        Cargo Clearing
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                          href="/#features"
+                          className="inline-block hover:text-primary mb-3"
+                      >
+                        Warehousing
                       </a>
                     </li>
                   </ul>
@@ -270,12 +344,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="hover:text-primary">
+                  <a href="/help-center/privacy-policy" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="hover:text-primary">
+                  <a href="/support" className="hover:text-primary">
                     Support
                   </a>
                 </li>

@@ -3,6 +3,7 @@ import SectionHeader from "../Common/SectionHeader";
 import BlogItem from "./BlogItem";
 import Data from "./blogData";
 
+
 const Blog = async () => {
   return (
     <section className="py-20 lg:py-25 xl:py-30">
