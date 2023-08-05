@@ -3,7 +3,7 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
+    icon: "/images/icon/icon-17.svg",
     title: "Package Delivery",
     description:
       "Package delivery is service that enables you move products from your location (or transportation hub)" +
@@ -12,7 +12,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 2,
-    icon: "/images/icon/icon-02.svg",
+    icon: "/images/icon/icon-15.svg",
     title: "Last Mile Delivery",
     description:
       "Last mile delivery is the last step in moving your business’ product from your location (or transportation hub)" +
@@ -21,7 +21,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
+    icon: "/images/icon/icon-11.svg",
     title: "Fulfillment",
     description:
       "Fulfillment is the process of receiving, packaging and shipping orders for goods. " +
@@ -30,7 +30,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
+    icon: "/images/icon/icon-07.svg",
     title: "Freight Services",
     description:
       "Freight Services is a leading provider of integrated logistics solutions in the Middle East. " +
@@ -42,7 +42,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 5,
-    icon: "/images/icon/icon-05.svg",
+    icon: "/images/icon/icon-09.svg",
     title: "Cargo Clearance",
     description:
       "Cargo Clearance is a service  where we offer cargo clearance for our customers from ports along the " +
@@ -53,7 +53,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/icon-20.svg",
     title: "WareHouse Management",
     description:
       "Warehousing is a service where we offer storage for our customers cargo in our warehouses. " + "" +
