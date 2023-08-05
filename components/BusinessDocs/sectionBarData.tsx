@@ -1,7 +1,18 @@
 import { SectionItem } from "@/types/section";
 
-const SectionData : SectionItem[] = [
-
+const PrivacyData : SectionItem[] = [
 ]
 
-export default SectionData;
+const RefundPolicyData : SectionItem[] = [
+]
+
+const TermsData : SectionItem[] = [
+]
+
+const ReturnPolicyData : SectionItem[] = [
+]
+
+const TermsOfServiceData : SectionItem[] = [
+]
+
+export default (PrivacyData)

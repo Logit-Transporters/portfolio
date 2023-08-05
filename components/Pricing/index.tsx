@@ -7,7 +7,7 @@ const Pricing = () => {
   return (
     <>
       {/* <!-- ===== Pricing Table Start ===== --> */}
-      <section className="pt-15 pb-20 lg:pb-25 xl:pb-30">
+      <section id="pricing" className="pt-15 pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top text-center mx-auto">
