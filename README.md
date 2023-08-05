@@ -1,6 +1,6 @@
 # Logit Transporters business Website portfolio
 
-Portfolio is the company website for logit transporters based on Next.js template for startups it provides the portfolio for the business with our SaaS services offering , pricing and onboarding control panel for customers to have a complete digital experience
+Portfolio is the company website for logit transporters it provides the portfolio for the business with our SaaS services offering , pricing and onboarding control panel for customers to have a complete digital experience
 
 ## 📄 License
 
