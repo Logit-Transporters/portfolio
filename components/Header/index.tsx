@@ -153,7 +153,7 @@ const Header = () => {
 
           <div className="flex items-center gap-6 mt-7 lg:mt-0">
             <Link
-              href="/signin"
+              href="/auth/signin"
               className="text-waterloo text-regular font-medium hover:text-primary"
             >
              Sign In
