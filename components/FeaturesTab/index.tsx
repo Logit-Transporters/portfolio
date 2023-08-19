@@ -70,7 +70,7 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Package Delivery
+                  Business Operations Outsourcing
                 </h5>
               </div>
             </div>
@@ -106,7 +106,7 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                  Cargo Clearing
+                  Last Mile Delivery
                 </h5>
               </div>
             </div>

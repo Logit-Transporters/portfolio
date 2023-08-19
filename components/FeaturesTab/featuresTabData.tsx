@@ -3,7 +3,7 @@ import { FeatureTab } from "@/types/featureTab";
 const featuresTabData: FeatureTab[] = [
   {
     id: "tabOne",
-    title: "Package Delivery.",
+    title: "Business Operations Outsourcing",
     desc1: `The last mile delivery is the most important part of the delivery process, we ensure that your package is delivered to your customer on time and in good condition.
     we deliver to your customer’s doorstep, we also provide you with a tracking system to track your package and know the status of your package at any time.`,
     desc2: `We deliver any package you want to deliver to your customer, we deliver food, groceries, electronics, and any other package you want to deliver to your customer.
@@ -19,7 +19,7 @@ const featuresTabData: FeatureTab[] = [
     through your tenant on this service, you can track your inventory, know when you are running low on stock and when you need to restock.
     This service is limited to businesses, and has additional monthly subscription fee. for the subscription fee, you get a dedicated account manager who will help you manage your inventory and orders.
     It includes ways of integrating into your exiting system to make it easy for you to manage your inventory and orders.`,
-    desc2: `The intgeration is done through our plugins to different CMS platforms like shopify, woocommerce, magento, saleor, dynamics 365 and Salesforce. we also provide you with an API to integrate into your existing system.
+    desc2: `The integration is done through our plugins to different CMS platforms like shopify, woocommerce, magento, saleor, dynamics 365 and Salesforce. we also provide you with an API to integrate into your existing system.
     This service is includes some partially enabled functions for tier 1 and tier 2, and fully enabled functions for tier 3 and tier 4.
     It includes fees for picking, packing and shipping your products to your customers beyond the monthly subscription fee.
     The first 3 orders are free for picking, packing and have a 50% discount on shipping fee, you only pay for orders beyond the first 5 orders per day.`,
@@ -28,7 +28,7 @@ const featuresTabData: FeatureTab[] = [
   },
   {
     id: "tabThree",
-    title: "Cargo Clearing",
+    title: "Last Mile Delivery",
     desc1: `This service is for businesses that import goods from other countries. and need help with clearing their goods from the port. we help you clear your goods from the port and deliver it to your warehouse.
     or we also help you store your goods in our warehouse and deliver it to your warehouse when you need it. we also help you with the documentation process and other processes involved in clearing your goods from the port.
     we have digitalized the process of clearing your goods from the port, so you can track the status of your goods at any time. 
