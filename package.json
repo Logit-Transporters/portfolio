@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sentry/nextjs": "^7.60.1",
+    "@sentry/nextjs": "^7.75.0",
     "@netlify/sentry": "^0.0.8",
     "@netlify/integrations": "^0.6.0",
     "@types/node": "20.2.5",
